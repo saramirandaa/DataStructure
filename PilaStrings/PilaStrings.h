@@ -11,6 +11,7 @@ public:
     string Extraer();
     string Consultar();
     void Mostrar();
+    int Seleccion(int);
 private:
     int min, max, tope;
     string* pila;

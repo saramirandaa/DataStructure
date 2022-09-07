@@ -35,6 +35,7 @@ string PilaStrings:: Extraer()
         return "-1";
     //Paso 2: Extraer el valor de la posición señalada por tope
     extraido = pila[tope];
+    pila[tope]="0000";
     //Paso 3: Decrementar el valor de tope
     tope--;
     return extraido;
@@ -49,6 +50,7 @@ void PilaStrings:: Mostrar()
         if(i == min) cout <<"\t<= Mínimo";
         if(i == max) cout << "\t<= Máximo";
         if(i == tope) cout << "\t<= Tope"; 
+        cout<<endl;
     }
 }
 
