@@ -14,7 +14,7 @@ public:
     ~PilaLigada();
     void Insertar(int);
     int Extraer();
-    void Consultar();
+    int Consultar();
     void Mostrar();
 private:
     Nodo *tope, *nodo, *extraido;

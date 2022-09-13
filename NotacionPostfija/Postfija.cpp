@@ -1,20 +1,20 @@
-#include "PilaDepurada.h"
+#include "Postfija.h"
 
-PilaDepurada::PilaDepurada()
+Postfija::Postfija()
 {
     setlocale(LC_ALL, "");
     min = 0;
     max = TAM - 1;
     top = min -1;
-    pila = new int[TAM];
+    pila = new string[TAM];
     for(int i=0; i<TAM; ++i)
     {
-        *(pila+i) = 0;
+        *(pila+i) = "0000";
     }
 }
-PilaDepurada::~PilaDepurada(){}
+Postfija::~Postfija(){}
 
-int PilaDepurada:: Push(int nuevo)
+int Postfija:: Push(string nuevo)
 {
     if(top >= max)
         return -1;
@@ -22,23 +22,23 @@ int PilaDepurada:: Push(int nuevo)
     *(pila+top) = nuevo;
     return 0;
 }
-int PilaDepurada::Pop()
+string Postfija::Pop()
 {
-    int popped;
+    string popped;
     if(top<min)
-        return -1;
+        return "-1";
     popped = pila[top];
-    pila[top]=0000;
+    pila[top]="0000";
     top--;
     return popped;
 }
-int PilaDepurada::Pull()
+string Postfija::Pull()
 {
     if (top<min)
-        return -1;
+        return "-1";
     return pila[top];
 }
-void PilaDepurada::Show()
+void Postfija::Show()
 {
     cout<<"\nPILA: "<<endl;
     for(int i = max; i>=0; i--)
@@ -50,13 +50,10 @@ void PilaDepurada::Show()
         cout<<endl;
     }
 }
-int PilaDepurada::Depuration(int index)
-{
-    return pila[index];
-}
 
-int PilaDepurada::Top()
+int Postfija::Top()
 {
     return top;
 }
+
 
