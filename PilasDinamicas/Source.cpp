@@ -34,6 +34,6 @@ int main()
         default:
         break;
          }
-    } while (opc=!5);
+    } while (opc!=5);
     
 }
