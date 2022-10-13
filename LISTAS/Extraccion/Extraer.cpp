@@ -128,13 +128,14 @@ string Lista::ExtraerInter(string aExtraer)
     
     while(nodo!=NULL)
     {
-        if(nodo->dato== aExtraer)
+        if(nodo->dato==aExtraer)
         {
             encontrado = true;
             break;
         }
         nodoAnter = nodo;
         nodo = nodo->sig;
+
     }
     //Paso 2: Tomar y devolcer la informacion extraida
     if(!encontrado)
