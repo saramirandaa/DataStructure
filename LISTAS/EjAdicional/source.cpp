@@ -3,7 +3,7 @@
 int main()
 {
     ListaEnlazada listaA, listaB, listaC;
-    int opc, val, cont;
+    int opc, val, val2, cont = 0;
     do
     {
         cout<<"Menu"<<endl;
@@ -24,13 +24,15 @@ int main()
             cont++;
         break;
         case 3:
-            for (int i = 0; i < cont; i++)
-            {
+           while(cont==0)
+           {
+                cont-=2;
                 val = listaA.DeleteBeginning();
                 listaC.InsertMiddle(val);
-                val = listaB.DeleteBeginning();
-                listaC.InsertMiddle(val);
-            }
+                val2 = listaB.DeleteBeginning();
+                listaC.InsertMiddle(val2);
+                cout<<cont<<endl;
+           }
         break;
         case 4:
             listaA.Display();

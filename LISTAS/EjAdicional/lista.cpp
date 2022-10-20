@@ -13,7 +13,7 @@ void ListaEnlazada::InsertFront(int value)
     n_nodes++;
     node = new Node;
     node->val = value;
-    node->next = NULL; //
+    node->next = head; 
     head = node;
 
     if(end==NULL)
@@ -116,7 +116,6 @@ void ListaEnlazada::InsertMiddle(int val)
 		node->next = NULL;
 		head = node;
 		end = node;
-		cout << "\tOK. Se insert� " << val << " al inicio " << endl;
 		return;
 	}
 	anterior = NULL;
@@ -136,7 +135,6 @@ void ListaEnlazada::InsertMiddle(int val)
 		node->next = NULL;
 		end->next = node;
 		end = node;
-		cout << "\tOK. Se insert� " << val << " al final " << endl;
 		return;
 	}
 	if (!anterior)
