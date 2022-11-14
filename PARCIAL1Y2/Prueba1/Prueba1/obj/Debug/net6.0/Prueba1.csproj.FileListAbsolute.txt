@@ -1,0 +1,15 @@
+/Users/saramiranda/Documents/DataStructure/Prueba1/Prueba1/bin/Debug/net6.0/Prueba1
+/Users/saramiranda/Documents/DataStructure/Prueba1/Prueba1/bin/Debug/net6.0/Prueba1.deps.json
+/Users/saramiranda/Documents/DataStructure/Prueba1/Prueba1/bin/Debug/net6.0/Prueba1.runtimeconfig.json
+/Users/saramiranda/Documents/DataStructure/Prueba1/Prueba1/bin/Debug/net6.0/Prueba1.dll
+/Users/saramiranda/Documents/DataStructure/Prueba1/Prueba1/bin/Debug/net6.0/Prueba1.pdb
+/Users/saramiranda/Documents/DataStructure/Prueba1/Prueba1/obj/Debug/net6.0/Prueba1.csproj.AssemblyReference.cache
+/Users/saramiranda/Documents/DataStructure/Prueba1/Prueba1/obj/Debug/net6.0/Prueba1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/saramiranda/Documents/DataStructure/Prueba1/Prueba1/obj/Debug/net6.0/Prueba1.AssemblyInfoInputs.cache
+/Users/saramiranda/Documents/DataStructure/Prueba1/Prueba1/obj/Debug/net6.0/Prueba1.AssemblyInfo.cs
+/Users/saramiranda/Documents/DataStructure/Prueba1/Prueba1/obj/Debug/net6.0/Prueba1.csproj.CoreCompileInputs.cache
+/Users/saramiranda/Documents/DataStructure/Prueba1/Prueba1/obj/Debug/net6.0/Prueba1.dll
+/Users/saramiranda/Documents/DataStructure/Prueba1/Prueba1/obj/Debug/net6.0/refint/Prueba1.dll
+/Users/saramiranda/Documents/DataStructure/Prueba1/Prueba1/obj/Debug/net6.0/Prueba1.pdb
+/Users/saramiranda/Documents/DataStructure/Prueba1/Prueba1/obj/Debug/net6.0/Prueba1.genruntimeconfig.cache
+/Users/saramiranda/Documents/DataStructure/Prueba1/Prueba1/obj/Debug/net6.0/ref/Prueba1.dll

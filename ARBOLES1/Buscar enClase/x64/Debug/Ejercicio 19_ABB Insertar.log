@@ -1,0 +1,5 @@
+﻿  Binario.cpp
+  Source.cpp
+  Generando código...
+C:\Users\fjagu\Desktop\Ejercicio Adicional 1_ABB Buscar enClase\Binario.cpp(131): warning C4715: 'Binario::Buscar': no todas las rutas de acceso de control devuelven un valor
+  Ejercicio 19_ABB Insertar.vcxproj -> C:\Users\fjagu\Desktop\Ejercicio Adicional 1_ABB Buscar enClase\x64\Debug\Ejercicio 19_ABB Insertar.exe
