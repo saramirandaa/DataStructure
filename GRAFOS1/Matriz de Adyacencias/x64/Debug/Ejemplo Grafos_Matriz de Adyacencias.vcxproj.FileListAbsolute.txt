@@ -1,2 +1,0 @@
-D:\Users\fraguilar\Desktop\PED\Ejemplo Grafos_Matriz de Adyacencias\x64\Debug\Ejemplo Grafos_Matriz de Adyacencias.exe
-C:\Users\fjagu\Desktop\Ejemplo Grafos_Matriz de Adyacencias enClase\x64\Debug\Ejemplo Grafos_Matriz de Adyacencias.exe
