@@ -1,0 +1,8 @@
+Que es un árbol
+
+Postorden
+
+Preorden
+
+Inorden
+

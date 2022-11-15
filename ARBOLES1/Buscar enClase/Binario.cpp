@@ -19,18 +19,18 @@ Numeros* Binario::getRaiz()
 }
 void Binario::Insertar(Numeros* inicio)
 {
-	if (!raiz)		// Si el árbol está vacío
+	if (!raiz)		// Si el ï¿½rbol estï¿½ vacï¿½o
 	{
 		raiz = nodo;
 		cout << "\n\tSe inserto en la raiz" << endl;
 		return;
 	}
-	if (nodo->num < inicio->num)   // Se insertará a la izquierda
+	if (nodo->num < inicio->num)   // Se insertarï¿½ a la izquierda
 	{
 		if (inicio->izq == NULL)
 		{
 			inicio->izq = nodo;
-			cout << "\tSe insertó a la izquierda de "
+			cout << "\tSe insertï¿½ a la izquierda de "
 				<< inicio->num;
 			return;
 		}
@@ -40,12 +40,12 @@ void Binario::Insertar(Numeros* inicio)
 			return;
 		}
 	}
-	if (nodo->num > inicio->num)   // Se insertará a la derecha
+	if (nodo->num > inicio->num)   // Se insertarï¿½ a la derecha
 	{
 		if (inicio->der == NULL)
 		{
 			inicio->der = nodo;
-			cout << "\tSe insertó a la derecha de "
+			cout << "\tSe insertï¿½ a la derecha de "
 				<< inicio->num;
 			return;
 		}
@@ -56,14 +56,14 @@ void Binario::Insertar(Numeros* inicio)
 		}
 	}
 	// Si ya existe el valor, NO se inserta
-	cout << "\n\tYa existe el valor en el árbol. NO se insertó" << endl;
+	cout << "\n\tYa existe el valor en el ï¿½rbol. NO se insertï¿½" << endl;
 	delete nodo;
 }
 void Binario::Recorrer_inorden(Numeros* inicio)
 {
 	if (!raiz)
 	{
-		cout << "\n\tÁrbol Vacío" << endl;
+		cout << "\n\tÃrbol VacÃ­o" << endl;
 		return;
 	}
 	if (inicio->izq != NULL) Recorrer_inorden(inicio->izq);
@@ -74,7 +74,7 @@ void Binario::Recorrer_preorden(Numeros* inicio)
 {
 	if (!raiz)
 	{
-		cout << "\n\tÁrbol Vacío" << endl;
+		cout << "\n\tï¿½rbol Vacï¿½o" << endl;
 		return;
 	}
 	cout << "\t" << inicio->num;
@@ -85,7 +85,7 @@ void Binario::Recorrer_posorden(Numeros* inicio)
 {
 	if (!raiz)
 	{
-		cout << "\n\tÁrbol Vacío" << endl;
+		cout << "\n\tÃrbol VacÃ­o" << endl;
 		return;
 	}
 	if (inicio->izq != NULL) Recorrer_posorden(inicio->izq);
@@ -97,12 +97,12 @@ Numeros* Binario::Buscar(Numeros* inicio, int buscado)
 	Numeros* encontrado;
 	if (!raiz)
 	{
-		cout << "\n\tÁrbol Vacío" << endl;
+		cout << "\n\tÃrbol VacÃ­o" << endl;
 		return NULL;
 	}
 	if (buscado == inicio->num)
 	{
-		cout << "\tOK. Se encontró el " << buscado << endl;
+		cout << "\tOK. Se encontrÃ³ el " << buscado << endl;
 		return inicio;
 	}
 	if (buscado < inicio->num)
