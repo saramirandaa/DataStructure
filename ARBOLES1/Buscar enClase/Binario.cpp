@@ -1,7 +1,6 @@
 #include "Binario.h"
 
-Binario::Binario()
-{
+Binario::Binario(){
 	raiz = NULL;
 }
 Binario::~Binario()
